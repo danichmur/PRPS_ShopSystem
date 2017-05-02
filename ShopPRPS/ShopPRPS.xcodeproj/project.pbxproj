@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		970EDE4E1EB5624E009A1BA2 /* shopDB.db in Resources */ = {isa = PBXBuildFile; fileRef = 970EDE4D1EB5624E009A1BA2 /* shopDB.db */; };
+		97258D451EB7905F00F723F5 /* BdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97258D441EB7905F00F723F5 /* BdayView.m */; };
+		97279D7E1EB55DC60027FE7A /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97279D7D1EB55DC60027FE7A /* DBManager.m */; };
+		976A6C2E1EB5E2B400DD8A82 /* SellerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 976A6C2C1EB5E2B400DD8A82 /* SellerView.m */; };
+		976A6C321EB5EB3900DD8A82 /* Storagekeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 976A6C311EB5EB3900DD8A82 /* Storagekeeper.m */; };
+		976A6C3E1EB6378200DD8A82 /* Dynamics.m in Sources */ = {isa = PBXBuildFile; fileRef = 976A6C3D1EB6378200DD8A82 /* Dynamics.m */; };
+		976A6C411EB6381E00DD8A82 /* bDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 976A6C401EB6381E00DD8A82 /* bDateView.m */; };
+		97AE98401EB5CD30007FECF1 /* ManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AE983F1EB5CD30007FECF1 /* ManagerView.m */; };
+		97BCE0BB1EB4F735003DC2C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BCE0BA1EB4F735003DC2C0 /* AppDelegate.m */; };
+		97BCE0BE1EB4F735003DC2C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BCE0BD1EB4F735003DC2C0 /* main.m */; };
+		97BCE0C11EB4F735003DC2C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BCE0C01EB4F735003DC2C0 /* ViewController.m */; };
+		97BCE0C41EB4F735003DC2C0 /* ShopPRPS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97BCE0C21EB4F735003DC2C0 /* ShopPRPS.xcdatamodeld */; };
+		97BCE0C61EB4F735003DC2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BCE0C51EB4F735003DC2C0 /* Assets.xcassets */; };
+		97BCE0C91EB4F735003DC2C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BCE0C71EB4F735003DC2C0 /* Main.storyboard */; };
+		97BCE0D21EB51D5B003DC2C0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BCE0D11EB51D5B003DC2C0 /* libsqlite3.tbd */; };
+		97BCE0DC1EB52DB0003DC2C0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BCE0DB1EB52DB0003DC2C0 /* libsqlite3.0.tbd */; };
+		97C029C71EB68C0300706AA2 /* GlobalChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C029C61EB68C0300706AA2 /* GlobalChecker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		970EDE4D1EB5624E009A1BA2 /* shopDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = shopDB.db; sourceTree = SOURCE_ROOT; };
+		97258D431EB7905F00F723F5 /* BdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BdayView.h; sourceTree = "<group>"; };
+		97258D441EB7905F00F723F5 /* BdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BdayView.m; sourceTree = "<group>"; };
+		97279D7C1EB55DC60027FE7A /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		97279D7D1EB55DC60027FE7A /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		976A6C2B1EB5E2B400DD8A82 /* SellerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellerView.h; sourceTree = "<group>"; };
+		976A6C2C1EB5E2B400DD8A82 /* SellerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellerView.m; sourceTree = "<group>"; };
+		976A6C301EB5EB3900DD8A82 /* Storagekeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storagekeeper.h; sourceTree = "<group>"; };
+		976A6C311EB5EB3900DD8A82 /* Storagekeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storagekeeper.m; sourceTree = "<group>"; };
+		976A6C3C1EB6378200DD8A82 /* Dynamics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dynamics.h; sourceTree = "<group>"; };
+		976A6C3D1EB6378200DD8A82 /* Dynamics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dynamics.m; sourceTree = "<group>"; };
+		976A6C3F1EB6381E00DD8A82 /* bDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bDateView.h; sourceTree = "<group>"; };
+		976A6C401EB6381E00DD8A82 /* bDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bDateView.m; sourceTree = "<group>"; };
+		97AE983E1EB5CD30007FECF1 /* ManagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerView.h; sourceTree = "<group>"; };
+		97AE983F1EB5CD30007FECF1 /* ManagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerView.m; sourceTree = "<group>"; };
+		97BCE0B61EB4F735003DC2C0 /* ShopPRPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopPRPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BCE0B91EB4F735003DC2C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97BCE0BA1EB4F735003DC2C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97BCE0BD1EB4F735003DC2C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97BCE0BF1EB4F735003DC2C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97BCE0C01EB4F735003DC2C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97BCE0C31EB4F735003DC2C0 /* ShopPRPS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShopPRPS.xcdatamodel; sourceTree = "<group>"; };
+		97BCE0C51EB4F735003DC2C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97BCE0C81EB4F735003DC2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97BCE0CA1EB4F735003DC2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97BCE0D11EB51D5B003DC2C0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		97BCE0DB1EB52DB0003DC2C0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		97C029C51EB68C0300706AA2 /* GlobalChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalChecker.h; sourceTree = "<group>"; };
+		97C029C61EB68C0300706AA2 /* GlobalChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalChecker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97BCE0B31EB4F735003DC2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BCE0DC1EB52DB0003DC2C0 /* libsqlite3.0.tbd in Frameworks */,
+				97BCE0D21EB51D5B003DC2C0 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97AE98381EB5C283007FECF1 /* Viewers */ = {
+			isa = PBXGroup;
+			children = (
+				97AE983E1EB5CD30007FECF1 /* ManagerView.h */,
+				97AE983F1EB5CD30007FECF1 /* ManagerView.m */,
+				976A6C2B1EB5E2B400DD8A82 /* SellerView.h */,
+				976A6C2C1EB5E2B400DD8A82 /* SellerView.m */,
+				976A6C301EB5EB3900DD8A82 /* Storagekeeper.h */,
+				976A6C311EB5EB3900DD8A82 /* Storagekeeper.m */,
+				976A6C3C1EB6378200DD8A82 /* Dynamics.h */,
+				976A6C3D1EB6378200DD8A82 /* Dynamics.m */,
+				976A6C3F1EB6381E00DD8A82 /* bDateView.h */,
+				976A6C401EB6381E00DD8A82 /* bDateView.m */,
+				97258D431EB7905F00F723F5 /* BdayView.h */,
+				97258D441EB7905F00F723F5 /* BdayView.m */,
+			);
+			name = Viewers;
+			sourceTree = "<group>";
+		};
+		97BCE0AD1EB4F735003DC2C0 = {
+			isa = PBXGroup;
+			children = (
+				97BCE0B81EB4F735003DC2C0 /* ShopPRPS */,
+				97BCE0B71EB4F735003DC2C0 /* Products */,
+				97BCE0D01EB51D5B003DC2C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97BCE0B71EB4F735003DC2C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97BCE0B61EB4F735003DC2C0 /* ShopPRPS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97BCE0B81EB4F735003DC2C0 /* ShopPRPS */ = {
+			isa = PBXGroup;
+			children = (
+				97AE98381EB5C283007FECF1 /* Viewers */,
+				970EDE4D1EB5624E009A1BA2 /* shopDB.db */,
+				97BCE0B91EB4F735003DC2C0 /* AppDelegate.h */,
+				97BCE0BA1EB4F735003DC2C0 /* AppDelegate.m */,
+				97BCE0BF1EB4F735003DC2C0 /* ViewController.h */,
+				97BCE0C01EB4F735003DC2C0 /* ViewController.m */,
+				97BCE0C51EB4F735003DC2C0 /* Assets.xcassets */,
+				97BCE0C71EB4F735003DC2C0 /* Main.storyboard */,
+				97BCE0CA1EB4F735003DC2C0 /* Info.plist */,
+				97BCE0C21EB4F735003DC2C0 /* ShopPRPS.xcdatamodeld */,
+				97BCE0BC1EB4F735003DC2C0 /* Supporting Files */,
+			);
+			path = ShopPRPS;
+			sourceTree = "<group>";
+		};
+		97BCE0BC1EB4F735003DC2C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97279D7C1EB55DC60027FE7A /* DBManager.h */,
+				97279D7D1EB55DC60027FE7A /* DBManager.m */,
+				97BCE0BD1EB4F735003DC2C0 /* main.m */,
+				97C029C51EB68C0300706AA2 /* GlobalChecker.h */,
+				97C029C61EB68C0300706AA2 /* GlobalChecker.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97BCE0D01EB51D5B003DC2C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97BCE0DB1EB52DB0003DC2C0 /* libsqlite3.0.tbd */,
+				97BCE0D11EB51D5B003DC2C0 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97BCE0B51EB4F735003DC2C0 /* ShopPRPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97BCE0CD1EB4F735003DC2C0 /* Build configuration list for PBXNativeTarget "ShopPRPS" */;
+			buildPhases = (
+				97BCE0B21EB4F735003DC2C0 /* Sources */,
+				97BCE0B31EB4F735003DC2C0 /* Frameworks */,
+				97BCE0B41EB4F735003DC2C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopPRPS;
+			productName = ShopPRPS;
+			productReference = 97BCE0B61EB4F735003DC2C0 /* ShopPRPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97BCE0AE1EB4F735003DC2C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Daniel Muraveyko";
+				TargetAttributes = {
+					97BCE0B51EB4F735003DC2C0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 97BCE0B11EB4F735003DC2C0 /* Build configuration list for PBXProject "ShopPRPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97BCE0AD1EB4F735003DC2C0;
+			productRefGroup = 97BCE0B71EB4F735003DC2C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97BCE0B51EB4F735003DC2C0 /* ShopPRPS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97BCE0B41EB4F735003DC2C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BCE0C61EB4F735003DC2C0 /* Assets.xcassets in Resources */,
+				970EDE4E1EB5624E009A1BA2 /* shopDB.db in Resources */,
+				97BCE0C91EB4F735003DC2C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97BCE0B21EB4F735003DC2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C029C71EB68C0300706AA2 /* GlobalChecker.m in Sources */,
+				97BCE0C41EB4F735003DC2C0 /* ShopPRPS.xcdatamodeld in Sources */,
+				97BCE0C11EB4F735003DC2C0 /* ViewController.m in Sources */,
+				97BCE0BE1EB4F735003DC2C0 /* main.m in Sources */,
+				976A6C3E1EB6378200DD8A82 /* Dynamics.m in Sources */,
+				976A6C321EB5EB3900DD8A82 /* Storagekeeper.m in Sources */,
+				97BCE0BB1EB4F735003DC2C0 /* AppDelegate.m in Sources */,
+				976A6C411EB6381E00DD8A82 /* bDateView.m in Sources */,
+				97258D451EB7905F00F723F5 /* BdayView.m in Sources */,
+				97AE98401EB5CD30007FECF1 /* ManagerView.m in Sources */,
+				976A6C2E1EB5E2B400DD8A82 /* SellerView.m in Sources */,
+				97279D7E1EB55DC60027FE7A /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97BCE0C71EB4F735003DC2C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97BCE0C81EB4F735003DC2C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97BCE0CB1EB4F735003DC2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		97BCE0CC1EB4F735003DC2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		97BCE0CE1EB4F735003DC2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShopPRPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = murinc.ShopPRPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97BCE0CF1EB4F735003DC2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShopPRPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = murinc.ShopPRPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97BCE0B11EB4F735003DC2C0 /* Build configuration list for PBXProject "ShopPRPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97BCE0CB1EB4F735003DC2C0 /* Debug */,
+				97BCE0CC1EB4F735003DC2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97BCE0CD1EB4F735003DC2C0 /* Build configuration list for PBXNativeTarget "ShopPRPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97BCE0CE1EB4F735003DC2C0 /* Debug */,
+				97BCE0CF1EB4F735003DC2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97BCE0C21EB4F735003DC2C0 /* ShopPRPS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97BCE0C31EB4F735003DC2C0 /* ShopPRPS.xcdatamodel */,
+			);
+			currentVersion = 97BCE0C31EB4F735003DC2C0 /* ShopPRPS.xcdatamodel */;
+			path = ShopPRPS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 97BCE0AE1EB4F735003DC2C0 /* Project object */;
+}
